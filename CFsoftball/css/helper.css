@@ -1,0 +1,274 @@
+/*************************
+		List 
+*************************/
+.list-unstyled {
+	list-style: none;
+	padding-left: 0;
+}
+.list-inline {display: inline-block;}
+
+/*************************
+		Alignment 
+*************************/
+.text-center {text-align: center;}
+.text-justify {text-align: justify;}
+.text-left {text-align: left;}
+.text-nowrap {white-space: nowrap;}
+.text-right {text-align: right;}
+
+/*************************
+		Box Model 
+*************************/
+.box-collapse {
+  border:  none !important;
+  margin:  0 !important;
+  padding:  0 !important;
+}
+.box-b-collapse {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.box-l-collapse {
+  border-left: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.box-r-collapse {
+  border-right: none !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+.box-t-collapse {
+  border-top: none !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/*************************
+		Borders 
+*************************/
+.border-none { border:  none !important; }
+.border-b-none { border-bottom: none !important; }
+.border-l-none { border-left: none !important; }
+.border-r-none { border-right: none !important; }
+.border-t-none { border-top: none !important; }
+
+.rule { border-bottom: rgb(204, 204, 204) solid 1px; }
+.rule-dashed { border-bottom: rgb(204, 204, 204) dashed 1px; }
+.rule-dotted { border-bottom: rgb(204, 204, 204) dotted 1px; }
+
+hr.rule,
+hr.rule-dashed,
+hr.rule-dotted { border-top: none; }
+
+.rule-primary { border-bottom: rgb(28, 64, 148) solid 2px; }
+.rule-secondary { border-bottom: rgb(93, 151, 50) solid 2px; }
+
+/*************************
+		Margins 
+*************************/
+.mar-none { margin: 0; }
+.mar-divide { margin: .5em; }
+.mar-default { margin: 1em; }
+.mar-double { margin: 2em; }
+
+.mar-b-none { margin-bottom: 0; }
+.mar-l-none { margin-left: 0; }
+.mar-r-none { margin-right: 0; }
+.mar-t-none { margin-top: 0; }
+
+.mar-b-divide { margin-bottom: .5em; }
+.mar-l-divide { margin-left: .5em; }
+.mar-r-divide { margin-right: .5em; }
+.mar-t-divide { margin-top: .5em; }
+
+.mar-b-default { margin-bottom: 1em; }
+.mar-l-default { margin-left: 1em; }
+.mar-r-default { margin-right: 1em; }
+.mar-t-default { margin-top: 1em; }
+
+.mar-b-double { margin-bottom: 2em; }
+.mar-l-double { margin-left: 2em; }
+.mar-r-double { margin-right: 2em; }
+.mar-t-double { margin-top: 2em; }
+
+/*************************
+		Padding 
+*************************/
+.pad-none { padding: 0; }
+.pad-divide { padding: .5em; }
+.pad-default { padding: 1em; }
+.pad-double { padding: 2em; }
+
+.pad-b-none { padding-bottom: 0 !important; }
+.pad-l-none { padding-left: 0 !important; }
+.pad-r-none { padding-right: 0 !important; }
+.pad-t-none { padding-top: 0 !important; }
+
+.pad-b-divide { padding-bottom: .5em; }
+.pad-l-divide { padding-left: .5em; }
+.pad-r-divide { padding-right: .5em; }
+.pad-t-divide { padding-top: .5em; }
+
+.pad-b-default { padding-bottom: 1em ; }
+.pad-l-default { padding-left: 1em; }
+.pad-r-default { padding-right: 1em; }
+.pad-t-default { padding-top: 1em; }
+
+.pad-b-double { padding-bottom: 2em; }
+.pad-l-double { padding-left: 2em; }
+.pad-r-double { padding-right: 2em; }
+.pad-t-double { padding-top: 2em; }
+
+.gutter {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.leading {
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+/*************************
+	Display/Visibility
+*************************/
+.block { display: block; }
+.inline { display: inline; }
+
+.inline-block,
+.inline-list li,
+.inline-list dt,
+.inline-list dd { display: inline-block; }
+
+.lt-ie8 .inline-block,
+.lt-ie8 .inline-list li,
+.inline-list dt,
+.inline-list dd,
+.lt-ie8 .sprite-icon {
+  display: inline;
+  zoom: 1;
+}
+
+.hide { display: none; }
+.hide-visually { /* Hide only visually, but have it available for screenreaders */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.hide-visually.focusable:active,
+.hide-visually.focusable:focus { /* Extends the .hide-visually class to allow the element to be focusable when navigated to via the keyboard */
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible { visibility: hidden; }
+
+.overflow-auto { overflow: auto; }
+.overflow-hidden { overflow: hidden; }
+.overflow-x-auto { overflow-x: auto; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-y-auto { overflow-y: auto; }
+.overflow-y-hidden { overflow-y: hidden; }
+
+/*************************
+		Floats
+*************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after { clear: both; }
+.lt-ie9 .clearfix { zoom: 1; }
+
+.clearfix-br {
+  clear: both;
+  height: 0;
+}
+
+.float-l { float: left; }
+.float-r { float: right !important; }
+
+/*************************
+		Fonts/Text
+*************************/
+.font-sz-big { font-size: 16px; }
+.font-sz-default { font-size: 14px; }
+.font-sz-small { font-size: 12px; }
+
+.nowrap { white-space: nowrap; }
+.break-word { overflow-wrap: break-word; word-wrap: break-word; }
+
+.text-lite { color: rgb(153, 153, 153) !important; }
+.text-primary { color: rgb(28, 64, 148) !important; }
+.text-secondary { color: rgb(34, 34, 34) !important; }
+.text-success { color: rgb(93, 151, 50) !important; }
+.text-warning { color: rgb(200, 138, 55) !important; }
+.text-caution { color: rgb(215, 185, 38) !important; }
+.text-critical,
+.text-error { color: rgb(185,74,72) !important; }
+
+.text-normal {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+}
+.text-em { font-style: italic; }
+.text-strong { font-weight: bold; }
+.text-underline { text-decoration: underline; }
+.text-underline-none { text-decoration: none; }
+.text-uppercase { text-transform: uppercase; }
+
+
+/*************************
+   Positioning/Alignment
+*************************/
+.pos-absolute { position: absolute; }
+.pos-fixed { position: fixed; }
+.pos-relative { position: relative; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.valign-bottom { vertical-align: bottom; }
+.valign-middle { vertical-align: middle; }
+.valign-top { vertical-align: top; }
+
+
+/*************************
+	   Miscellaneous
+*************************/
+.cursor-help { cursor: help; }
+.cursor-pointer { cursor: pointer; }
+.placeholder { color: #aaa; }
+
+ul.no-marker,
+.no-marker ul { list-style-type: none; }
+
+/* UI Panel Icon Styles */
+.ui-panel h1 i {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+}
+
+.ui-panel h1 i.g-icon-lg {
+  margin-left: -47px;
+}
+
+.img-round {
+  border-radius: 50%; 
+}

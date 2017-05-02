@@ -1,0 +1,30 @@
+/*********************
+    Media Queries
+*********************/
+
+/*smartphones and tablets */
+@media screen and (min-width: 480px) {
+
+/*********************
+	Header
+*********************/
+	
+}
+
+/* Large tablets normal sized desktops */
+@media screen and (min-width: 660px) {
+
+/*********************
+	Header
+*********************/
+	
+}
+
+
+@media screen and (min-width: 900px) {
+	
+/*********************
+	Header
+*********************/
+
+}

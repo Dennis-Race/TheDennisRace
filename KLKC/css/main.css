@@ -1,0 +1,141 @@
+/***************
+   Cover Page
+***************/
+
+ .opening {
+  background: url(../img/cincy_skyline_1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+}
+
+body {
+  color: #fff;
+}
+
+/****************
+	  Header
+****************/
+
+header {
+	margin: 0 auto;
+	padding: 20px 30px 20px 10px;
+	position: relative;
+	width: 100%;
+}
+
+header a {
+	color: #2378B9;
+	font-size: 32px;
+	padding-right: 5px;
+	position: absolute;
+	right: 2%;
+	top: 35%;
+}
+
+.logo {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*************************
+	Drop-down Navigation	
+*************************/
+
+.main-nav {
+	background: #3b3b3b;
+	height: 0;
+	overflow-x: hidden;
+	text-align: center;
+	transition: height 0.3s linear 0s;
+	z-index: 10000;
+}
+
+.main-nav li {
+	font-size: 16px;
+}
+
+.main-nav a {
+	background: linear-gradient(#3E3E3E, #383838);
+	border-bottom: 1px solid #A31716;
+	display: block;
+	padding: 15px;
+}
+
+.main-nav a:hover {
+  background: linear-gradient(#383838, #3e3e3e);
+  text-decoration: none;
+}
+
+.project-nav {
+	background: #3b3b3b;
+	height: 0;
+	overflow-x: hidden;
+	position: absolute;
+	text-align: center;
+	transition: height 0.3s linear 0s;
+	width: 100%;
+}
+
+/******************
+	Main Content
+******************/
+
+.main {
+	background: rgba(44,53,57,0.6);
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.info {
+	font-size: 18px;
+}
+
+hr {
+	width: 80%;
+}
+
+/****************
+	About Me
+****************/
+
+.aboutMe  {
+	background: #2B2B2B;
+}
+
+
+/****************
+Cover page footer
+****************/
+
+footer {
+	margin: 0 auto;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 90%;
+}
+
+#facebook, #twitter, #instagram, #google, #linkedIn {
+	height: 30px;
+	width: 30px;
+}
+
+#copyright {
+	font-size: .70em;		
+}
+
+.social {
+	list-style: none;
+	margin: 24px 0;
+	padding: 0;
+
+}
+
+.social li {
+	display: inline-block;
+	margin: 0 10px;	
+}

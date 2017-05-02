@@ -1,0 +1,243 @@
+/****************
+content
+****************/
+
+.content {
+  background: rgba(44, 53, 57, 0.6);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 15px auto;
+  width: 80%;
+}
+
+.game-entry {
+  border-bottom: 1px solid #ffffff;
+}
+
+/****************
+general
+****************/
+
+body {
+  background: url('../img/metro2013.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  min-height: 100%;
+}
+
+a { 
+  text-decoration: none; 
+}
+
+/****************
+header
+****************/
+
+header {
+  background: linear-gradient(#e50000, #808080);
+  color: white;
+  padding: 5px;
+  text-shadow: #222 0px -1px 1px;     
+}
+
+header a {
+  color: white;
+  font-size: 32px;
+  right: 2%;
+  position: absolute;
+  top: .1%;
+}
+
+header h1 {  
+  font-size: 1.40em;
+  font-weight: normal;
+  line-height: .08em;
+  margin: 15px 0;
+}
+
+header h3 {
+ font-size: .75em;
+ font-weight: normal;
+}
+
+
+/****************
+main navigation
+****************/
+
+.main-nav {
+  background: #3B3B3B;
+  height: 0;
+  overflow-x: hidden;
+  position: absolute;
+  text-align: center;
+  top: 55px;
+  transition: height 0.3s linear 0s;
+  width: 100%;
+  z-index: 10000;
+}
+
+.main-nav #dropdown {
+  padding-left: .4%;
+}
+
+ .main-nav a {    
+  background: linear-gradient(#3E3E3E, #383838);
+  border-top: 1px solid #484848;
+  border-bottom: 1px solid #2E2E2E;
+  color: white;
+  display: block;
+  padding: 15px;
+}
+
+.main-nav a:hover {
+  background: linear-gradient(#383838, #3e3e3e);
+}
+
+.divider {
+  height: 3px;
+  margin: 9px 0;
+  overflow: hidden;
+}
+
+.roster-nav {
+  background: #3B3B3B;
+  height: 0;
+  overflow-x: hidden;  
+  text-align: center;
+  transition: height 0.3s linear 0s;
+  width: 100%;
+  z-index: 10000;
+}
+
+#roster-arrow {
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+/****************
+   Roster Page
+****************/
+.roster-page {
+  background: url('../img/cf_scorebook.jpg') no-repeat center center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: white;
+  min-height: 100%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table caption {
+  font-size: 1.7em;
+  margin-bottom: .5em;
+}
+
+table th, td {
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+table a {
+  color: #FF0400;
+  font-family:  'century gothic';
+}
+
+tbody, thead {
+  font-size: .50em;
+}
+
+table tbody tr:hover {
+  background-color: #3f3f3f;
+}
+
+  /* Carousel */
+.carousel img {
+  border-radius: 50%;
+ }
+
+.leaders {
+  text-align: center;
+}
+
+.leaders:not(.active) {
+  display: none;
+}
+
+.leaders h2, h6 {
+  line-height: 1%;
+}
+
+.carousel-nav img {
+
+}
+
+.prev {
+
+}
+
+.next {
+  
+}
+    /*Players Page*/
+.player-info {
+  display: inline-block;
+  line-height: .001em;
+  text-align: center;
+  width: 100%;
+}
+
+.player-name {
+  font-size:  2.0em;
+}
+
+.btn-year {
+  display: block;
+  height: 40px;
+  margin-bottom: .5em;
+  padding: .1em;
+  width: 100%;
+}
+
+.long-name {
+  font-size: 1.4em;
+}
+
+/****************
+   History Page
+****************/
+.history-table caption {
+  margin-top: 20px;
+}
+
+/****************
+   Sponsors Page
+****************/
+.sponsor-link {
+  font-size: .9em;
+}
+
+/****************
+schedule page
+****************/
+.schedule-table td {
+  padding: .30em;
+}
+
+/****************
+footer
+****************/
+footer {
+  clear: both;
+  font-size: .70em;
+  margin: 1.5em;
+  text-align: center;
+}
